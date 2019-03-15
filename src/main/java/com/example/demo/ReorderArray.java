@@ -27,6 +27,12 @@ public class ReorderArray {
         }
 
     }
+    public boolean isEven(int number){
+        if ((number & 0x01) == 0){
+            return true;
+        }
+        return false;
+    }
 
     public static void main(String[] args) {
         int[] array = {1,2,3,4,5};
