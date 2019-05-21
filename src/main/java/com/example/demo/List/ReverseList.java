@@ -5,6 +5,12 @@ package com.example.demo.List;
  * @Data 19-3-20 下午2:59
  */
 public class ReverseList {
+
+    /**
+     * 反转链表
+     * @param head
+     * @return
+     */
     public ListNode reverseList(ListNode head) {
         if (head == null) {
             return head;
