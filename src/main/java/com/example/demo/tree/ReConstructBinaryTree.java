@@ -44,6 +44,8 @@ public class ReConstructBinaryTree {
     public static void main(String[] args) {
         int [] pre = {1,2,4,7,3,5,6,8};
         int [] middle = {4,7,2,1,5,3,8,6};
+        TreeNode treeNode = new ReConstructBinaryTree().reConstructBinaryTree(pre, middle);
+        System.out.println(new PrintFromTopToBottom().printFromTopToBottom(treeNode));
 
     }
 }
