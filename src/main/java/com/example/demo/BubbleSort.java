@@ -33,9 +33,31 @@ public class BubbleSort {
         }
     }
 
+
+    public static void bubbleSort1(int [] arr) {
+        //表示是否有数字交换
+        int exchangeFlag = 1;
+        for (int i1 = 0; i1 < arr.length && exchangeFlag == 1; i1++) {
+            exchangeFlag = 0;
+            System.out.println(Arrays.toString(arr));
+            for (int i2 = i1 + 1; i2 < arr.length; i2++) {
+                if (arr[i2] < arr[i1]) {
+                    exchangeFlag = 1;
+                    int temp = arr[i2];
+                    arr[i2] = arr[i1];
+                    arr[i1] = temp;
+                }
+
+            }
+
+        }
+
+    }
+
     public static void main(String[] args) {
         int [] a = {5,4,3,2,1,1,2,3,4,5};
-        new BubbleSort().bubbleSort(a);
+//        new BubbleSort().bubbleSort(a);
+        bubbleSort1(a);
         System.out.println(Arrays.toString(a));
     }
 }

@@ -6,6 +6,11 @@ import java.util.Stack;
  * @Author: Jinzhenzhen
  * @Data 19-5-22 下午2:35
  */
+
+
+/**
+ * 包含最小函数的栈结构
+ */
 public class StackIml {
     public Stack<Integer> stack1;
     public Stack<Integer> stack2;
