@@ -1,6 +1,5 @@
-package com.example.demo;
+package com.example.demo.array;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
