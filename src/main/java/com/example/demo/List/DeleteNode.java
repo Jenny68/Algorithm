@@ -44,7 +44,7 @@ public class DeleteNode {
         listNode1.next = listNode2;
         listNode2.next = listNode3;
 
-        new DeleteNode().deleteNode(listNode, listNode2);
+        new DeleteNode().deleteNode(listNode, listNode);
         PrintListUtils.printList(listNode);
     }
 }
